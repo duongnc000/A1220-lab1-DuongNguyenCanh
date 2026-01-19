@@ -2,6 +2,7 @@
 import os
 import base64
 
+
 def encode_file(path):
     """Encode a file as a base64 string.
 
@@ -13,6 +14,7 @@ def encode_file(path):
     """
     with open(path, "rb") as f:
         return base64.b64encode(f.read()).decode("utf-8")
+
 
 def list_files(dirpath):
     """List all files in a directory.
@@ -27,4 +29,3 @@ def list_files(dirpath):
         path = os.path.join(dirpath, name)
         if os.path.isfile(path):
             yield name, path
-

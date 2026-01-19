@@ -4,6 +4,7 @@ import argparse
 from . import file_io as io_mod
 from . import gpt
 
+
 def process_directory(dirpath):
     """Process a directory of receipt images.
 
@@ -20,6 +21,7 @@ def process_directory(dirpath):
         results[name] = data
     return results
 
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("dirpath")
@@ -30,6 +32,6 @@ def main():
     if args.print:
         print(json.dumps(data, indent=2))
 
+
 if __name__ == "__main__":
     main()
-

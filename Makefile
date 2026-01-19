@@ -1,2 +1,2 @@
 run:
-	uv run src/app/main.py src/app/receipts --print
+	PYTHONPATH=src uv run -m app.main src/app/receipts --print
