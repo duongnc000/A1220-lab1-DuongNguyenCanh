@@ -1,0 +1,1 @@
+This app uses AI to read your receipt and tells you information (date, cost, vendor, category) of your order/shopping trip.

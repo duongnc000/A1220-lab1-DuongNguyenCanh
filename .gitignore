@@ -1,0 +1,24 @@
+# Python-generated files
+src/__pycache__/
+src/app/__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+uv.lock
+
+# Ruff
+.ruff_cache
+
+# Documentation generator
+docs/
+
+# Receipts
+src/app/receipts
+
+# OpenAI Key
+COMMAND_API_OPENAI.txt
